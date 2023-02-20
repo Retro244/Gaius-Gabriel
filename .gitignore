@@ -1,0 +1,20 @@
+
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x 
+print("Welcome to the Addition and Subtraction Calculator!")
+print("Please select an operation:")
+print("1. Addition")
+print("2. Subtraction")
+
+choice = input("Enter operation choice (1/2): ")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second 
+if choice == '1':
+    print(num1, "+", num2, "=", add(num1,num2))
+elif choice == '2':
+    print(num1, "-", num2, "=", subtract(num1,num2))
+else:
+    print("Invalid input")
